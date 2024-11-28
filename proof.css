@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+} */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    background-color: hsl(300, 24%, 96%);
+}
+.parent-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;
+    height: 100vh; */
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding-bottom: 40px;
+    gap: 40px;
+
+}
+.left-div{
+    display: flex;
+    flex-direction: column;
+    /* width: 48vw; */
+    gap: 10px;
+}
+.left-div p{
+    font-size: 16px;
+    color: hsl(302, 15%, 56%);
+}
+.a{
+    width: 20vw;
+    font-size: 18px;
+    color:  hsl(302, 68%, 40%);
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.c{
+    /* width: 27vw;
+    height: 6vh; */
+    background-color: rgb(221, 220, 220);
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    border-radius: 6px;
+    padding: 20px;
+}
+.c p{
+    color:  hsl(302, 68%, 40%);
+}
+.d{
+    /* width: 30vw;
+    height: 6vh; */
+    background-color: rgb(221, 220, 220);
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 6px;
+    margin-left: 40px;
+}
+.d p{
+    color:  hsl(302, 68%, 40%);
+}
+
+.e{
+    /* width: 33vw;
+    height: 6vh; */
+    background-color: rgb(221, 220, 220);
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    margin-left: 80px;
+    border-radius: 6px;
+}
+.e p{
+    color:  hsl(302, 68%, 40%);
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 20px;
+}
+.smith-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.colton{
+    flex-direction: column;
+    display: flex;
+    background-color: hsl(302, 66%, 31%);
+    width: 20vw;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.magine{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pix img{
+    width: 3vw;
+    border-radius: 20px;
+}
+.magine h4{
+    color: hsl(0, 0%, 100%);
+}
+.magine p{
+    color: hsl(300, 70%, 46%);
+}
+.colton p{
+    color:  hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+.robert-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+.wrap{
+    flex-direction: column;
+    display: flex;
+    background-color:  hsl(302, 66%, 31%);
+    width: 20vw;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.irene{
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+}
+.irene-pix img{
+    width: 3vw;
+    border-radius: 20px;   
+}
+.irene h4{
+    color: hsl(0, 0%, 100%);
+}
+.irene p{
+    color: hsl(300, 70%, 46%);
+}
+.wrap p{
+    color:  hsl(0, 0%, 100%);
+    font-size: 13px;
+}
+
+.anne-div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+
+}
+.wrap2{
+    flex-direction: column;
+    display: flex;
+    background-color:  hsl(302, 66%, 31%);
+    width: 20vw;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 7px; 
+}
+.wallace{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.anne-pix img{
+    width: 3vw;
+    border-radius: 20px;   
+}
+.wallace h4{
+    color: hsl(0, 0%, 100%);
+}
+.wallace p{
+    color: hsl(300, 70%, 46%);
+}
+.wrap2 p{
+    color:  hsl(0, 0%, 100%);
+    font-size: 13px;
+} 
+    /* .down{
+        display: flex;
+        flex-direction: column;
+    }
+    .smith-div,.robert-div,.anne-div{
+        width: 50vw;
+    } */
+
+@media screen and (max-width: 950px){
+     .left-div{
+        text-align: center;
+     }
+     h1{
+        width: 90vw;
+     }
+     .d,.c, .e{
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
+        margin: 0%;
+        align-items: center;
+     }
+     .try img{
+        width:  9vw;
+     }
+    .down{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .colton,.wrap,.wrap2{
+        width: 80vw;
+        height: 30vh;
+       
+    }
+    .mark h4 {
+        font-size: larger;
+    }
+    .mark p{
+        font-size: 15px;
+    }
+    .irene-pix img,.pix img,.anne-pix img{
+        width: 13vw;
+    }
+    .colton p,.wrap p,.wrap2 p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .b{
+        display: flex;
+        flex-direction: column;
+    }
+    .up{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
